@@ -13,7 +13,7 @@
 
 #### 1. 파일 생성/업로드 규칙   
 알고리즘 파일은 n주차/jisu/swea_1000.py 와 같이 푼 문제를 표시해서 추가합니다.  
-SQL 파일은 n주차/jisu/prog_select.md 로 업로드  
+SQL 파일은 n주차/jisu/prog_select.sql 로 업로드  
 (swea, bj, prog 등은 문제사이트,  1000, select는 문제번호 or 문제주제)
 
 #### 2. Push 규칙  
