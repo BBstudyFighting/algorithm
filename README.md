@@ -1,10 +1,10 @@
-# GumiAlgoStudy2021
-해체되었습니다.
+# Mulcam B Algo Study
 
 ### :pencil: Rule  
-- 스터디 시간: 매주 목요일 9시  
-- 일주일 동안 6문제 풀기 (문제는 매주 정하기!!)   
-- [백준 문제집](https://www.acmicpc.net/group/workbook/list/10053)
+- 스터디 시간: 매일 아침 8시 30분  
+- 일주일 동안 알고리즘 6문제 / SQL 18 문제 풀기    
+- [Algo - SWEA](https://swexpertacademy.com/main/learn/course/subjectList.do?courseId=AVuPDN86AAXw5UW6)
+- [SQL - Progrmmers](https://programmers.co.kr/learn/challenges) 
 
 ### :apple: How to Contribute   
 1. 매주 새 디렉터리를 만듭니다. (ex. 1주차, 2주차 ...)
@@ -20,10 +20,11 @@
 $ git pull <remote 이름> master
 ```
 -> pull했는데 해당 주차의 디렉터리가 안보이면 따로 만들어 주세요.  
--> 프로젝트명/n주차/bj_100/bj_1000_홍길동.java 형식에 맞게 저장 후 commit&push 해주세요.
+-> n주차/algo/swea_list1,2_홍길동.py
+-> n주차/sql/prog_select_홍길동.sql 형식에 맞게 저장 후 commit&push 해주세요.
 ```
 $ git add .
-$ git commit -m "bj_1000_홍길동"
+$ git commit -m "swea_list1,2_홍길동"
 $ git push <remote 이름> master
 ```
 
