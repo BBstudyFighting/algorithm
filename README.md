@@ -7,12 +7,14 @@
 - [SQL - Progrmmers](https://programmers.co.kr/learn/challenges) 
 
 ### :apple: How to Contribute   
-1. 매주 새 디렉터리를 만듭니다. (ex. 1주차, 2주차 ...)
-2. 디렉터리에 문제 디렉터리를 또 만듭니다. (ex. 백준 1000번 문제라면 bj_1000)
-3. 문제 디렉터리에 각자 푼 문제를 추가합니다.
+1. 매주 새 디렉터리를 만듭니다. (ex. 01주차, 02주차 ... 10주차...)
+2. 디렉터리에 본인 이름으로 디렉터리를 또 만듭니다. (ex. jisu, yoonju, eunwon)
+3. 이름 디렉터리에 각자 푼 문제를 추가합니다.
 
 #### 1. 파일 생성/업로드 규칙   
-파일명을 n주차/bj_1000/bj_1000_홍길동.java으로 해서 추가합니다. (n주차, bj_100은 디렉터리, bj_1000_홍길동.java는 파일)    
+알고리즘 파일은 n주차/jisu/swea_1000.py 와 같이 푼 문제를 표시해서 추가합니다.  
+SQL 파일은 n주차/jisu/prog_select.md 로 업로드  
+(swea, bj, prog 등은 문제사이트,  1000, select는 문제번호 or 문제주제)
 
 #### 2. Push 규칙  
 -> pull부터 합니다.  
