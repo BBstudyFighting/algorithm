@@ -15,8 +15,8 @@
 
 #### 1. 파일 생성/업로드 규칙
 
-알고리즘 파일은 n주차/jisu/swea*4834*색칠하기.py 와 같이 푼 문제를 표시해서 추가합니다.  
-SQL 파일은 n주차/jisu/prog_select.sql 와 같이 추가  
+알고리즘 파일은 n주차/jisu/swea/4834_색칠하기.py 와 같이 푼 문제를 표시해서 추가합니다.  
+SQL 파일은 n주차/jisu/prog/_select.sql 과 같이 추가  
 문제사이트 : SW Expert Academy -> swea, 프로그래머스 -> prog, 백준 -> bj
 
 #### 2. Push 규칙
@@ -24,7 +24,7 @@ SQL 파일은 n주차/jisu/prog_select.sql 와 같이 추가
 -> pull부터 합니다.
 
 ```
-$ git pull <remote 이름> master
+$ git pull origin main
 ```
 
 -> pull했는데 해당 주차의 디렉터리가 안보이면 따로 만들어 주세요.  
@@ -34,7 +34,7 @@ $ git pull <remote 이름> master
 ```
 $ git add .
 $ git commit -m "1주차_홍길동"
-$ git push <remote 이름> master
+$ git push origin main
 ```
 
 > push할 때 conflict 생길 경우 pull 한번 해주고 다시 하면 됩니다.
