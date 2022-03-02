@@ -1,9 +1,0 @@
--- 모든 레코드 조회하기 :
-SELECT * FROM ANIMAL_INS ORDER BY ANIMAL_ID;
-
--- 역순 정렬하기
-SELECT NAME, DATETIME FROM ANIMAL_INS 
-ORDER BY ANIMAL_ID desc;
-
--- 아픈 동물 찾기
-select ANIMAL_ID, NAME from ANIMAL_INS where INTAKE_CONDITION = 'SICK';
