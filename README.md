@@ -10,7 +10,7 @@
 #### 1. 최초 클론 방법 (VSCode 활용 가정)
 
 1. VSCode 탐색기에서 내가 활용할 폴더(빈 폴더여야 한다)에 오른쪽 버튼 통합터미널 열기를 누른다.   
-![image](https://user-images.githubusercontent.com/67591105/157668642-71972ab7-273b-4b76-90ca-431a6e62c6b6.png){: width="300" height="300"}
+<img src="https://user-images.githubusercontent.com/67591105/157668642-71972ab7-273b-4b76-90ca-431a6e62c6b6.png" width="300" height="300"/>
 
 2. 명령창에 아래와 같이 입력하고 클론한다. 
 ```
