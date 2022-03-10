@@ -26,9 +26,9 @@ git clone https://github.com/BBstudyFighting/algorithm.git .
 1. 매주 새 폴더를 만듭니다. (ex. 01주차, 02주차 ... 10주차...)
 2. 본인 이름의 폴더와 문제사이트 폴더를 또 만듭니다. (ex. jisu/swea, jisu/sql.. )
 -> 문제를 풀고 n주차/이름/문제사이트 폴더 안에 문제명.py 이런 식으로 올려주시면 됩니다.  
-e.g)
-- 알고리즘 파일은 n주차/jisu/swea/4834_색칠하기.py 와 같이 푼 문제를 표시해서 추가합니다.  
-- SQL 파일은 n주차/jisu/prog/select.sql 과 같이 추가  
+
+e.g)  - 알고리즘 파일은 n주차/jisu/swea/4834_색칠하기.py   
+      - SQL 파일은 n주차/jisu/prog/select.sql 과 같이 추가  
 
 
 #### 2. 파일 push 방법
