@@ -39,6 +39,7 @@ e.g)
 git pull origin main
 ```
 
+-> 파일을 추가, 커밋, 푸시한다
 ```
 $ git add .
 ```
