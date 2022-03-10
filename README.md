@@ -36,12 +36,16 @@ e.g)
 -> pull부터 합니다.
 -> pull했는데 해당 주차의 디렉터리가 안보이면 따로 만들어 주세요.  
 ```
-$ git pull origin main
+git pull origin main
 ```
 
 ```
 $ git add .
+```
+```
 $ git commit -m "홍길동_문제이름(algo 혹은 sql)"
+```
+```
 $ git push origin main
 ```
 
