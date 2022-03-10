@@ -4,8 +4,8 @@
 
 - 스터디 시간: 매일 아침 8시 30분
 - 일주일 중 6일 알고리즘 / SQL 문제풀고 올리기 (문제난이도 및 소요 시간이 따라 1 ~ 3문제)
-- 알고리즘 문제사이트 : [SW Expert Academy](https://swexpertacademy.com/main/learn/course/subjectList.do?courseId=AVuPDN86AAXw5UW6) -> swea, 백준 -> bj 
-- SQL 문제사이트 : [프로그래머스](https://programmers.co.kr/learn/challenges) -> prog, [HackerRank](https://www.hackerrank.com/domains/sql)-> hack### :apple: How to Contribute
+- 알고리즘 문제사이트 : [SW Expert Academy](https://swexpertacademy.com/main/learn/course/subjectList.do?courseId=AVuPDN86AAXw5UW6) -> swea, [백준](https://www.acmicpc.net/workbook/top) -> bj 
+- SQL 문제사이트 : [프로그래머스](https://programmers.co.kr/learn/challenges) -> prog, [HackerRank](https://www.hackerrank.com/domains/sql)-> hack
 
 #### 1. 최초 클론 방법 (VSCode 활용 가정)
 
