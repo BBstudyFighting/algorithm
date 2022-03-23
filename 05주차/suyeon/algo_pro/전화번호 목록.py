@@ -12,7 +12,8 @@
 def solution(phone_book):
     answer = True
     phone_book.sort()
-    for i in range(len(phone_book)-1): #phone_book을 정렬하고 for문을 이용해 phone_book[i]과 phone_book[i+1] 값을 비교
+    for i in range(len(phone_book)-1): 
+        #phone_book을 정렬하고 for문을 이용해 phone_book[i]과 phone_book[i+1] 값을 비교
         if len(phone_book[i]) < len(phone_book[i+1]):  # 첫번째 if문에서 i와 i+1의 길이를 비교한 것은 바로 아래의 if문에서 index가 out of range가 되는 것을 피하기 위함
             if phone_book[i + 1][:len(phone_book[i])] == phone_book[i]:
                 answer = False
