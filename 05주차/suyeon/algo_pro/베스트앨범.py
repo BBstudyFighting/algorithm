@@ -26,7 +26,7 @@ def solution(genres, plays):
             answer.append(i)
     return answer
   
-############
+#####직관적#######
 def solution(genres, plays):
     answer = []
     dic = {}
