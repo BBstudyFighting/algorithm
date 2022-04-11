@@ -15,4 +15,7 @@ d는 서부 경도의 최대값과 같습니다(STATION의 LONG_W).
 점 사이의 맨하탄 거리를 쿼리하고 소수점 4자리 척도로 반올림합니다
 '''
 select round((max(LAT_N)-min(LAT_N)) + (max(LONG_W)-min(LONG_W)) ,4)
-from STATION 
+from STATION ;
+
+select round(abs(max(LAT_N)-min(LAT_N)) + abs(max(LONG_W)-min(LONG_W)) ,4) #abs: 절댓값을 구하는 함수
+from STATION ;
