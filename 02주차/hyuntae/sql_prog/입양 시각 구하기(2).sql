@@ -1,0 +1,9 @@
+-- 입양 시각 구하기(2)
+SET @HOUR = -1;
+
+SELECT (@HOUR := @HOUR +1) AS HOUR,
+    (SELECT COUNT(HOUR(DATETIME)) 
+    FROM ANIMAL_OUTS 
+    WHERE HOUR(DATETIME)=@HOUR) AS COUNT 
+    FROM ANIMAL_OUTS
+WHERE @HOUR < 23; # 23까지 해야 22+1 되어서 23시까지 데이터를 가져옴
