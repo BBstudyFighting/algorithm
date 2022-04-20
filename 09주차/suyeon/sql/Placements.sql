@@ -14,7 +14,6 @@ WHERE P2.SALARY > P1.SALARY
 ORDER BY P2.SALARY;
 """
 세 개의 테이블을 모두 사용해야 값을 추출할 수 있기 때문에, 세 개 테이블을 모두 조인해준다.
-조인을 세 번 하면 아래와 같이 총 8개의 column 을 갖는 테이블이 완성된다.
-
+조인을 세 번 하면 총 8개의 column 을 갖는 테이블이 완성된다.
 이 조인 테이블에서 값, 즉 나의 salary(p1.Salary) 보다 친구의 salary(p2.Salary) 가 더 높은 것을 where 에 조건문으로 달아서 필터링하면 된다. 
 """
