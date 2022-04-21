@@ -13,3 +13,9 @@ ORDER BY G.GRADE DESC, S.NAME, S.MARKS ASC ;
 
 # their name and list them by their grades in descending order
 # their marks in ascending order 
+
+Select case when g.grade >= 8 then s.name
+else NULL end, g.grade, s.marks
+from STUDENTS as S
+join grades as g on (s.marks >= g.MIN_MARK AND s.marks <=  g.MAX_MARK)
+ORDER BY G.GRADE DESC, S.NAME, S.MARKS ASC ;
