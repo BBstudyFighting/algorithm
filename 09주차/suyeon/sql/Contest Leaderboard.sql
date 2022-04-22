@@ -14,3 +14,6 @@ FROM (SELECT sub.hacker_id, SUM(max_score) AS total_score
       HAVING total_score != 0) sub2
  INNER JOIN Hackers H ON sub2.hacker_id = H.hacker_id
 ORDER BY sub2.total_score DESC, H.hacker_id
+
+
+# 서브쿼리로 각 hacker_id에 대해서 이 hacker_id가 풀은 challenges 중 가장 높은 score값을 도출해내고 이 score들을 더한 total score를 만들기 위해 다시 한 번 hacker_id를 기준으로 그룹화하기
