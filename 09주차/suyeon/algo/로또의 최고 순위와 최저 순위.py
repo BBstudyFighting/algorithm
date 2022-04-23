@@ -9,7 +9,7 @@ def solution(lottos, win_nums):
 
 def solution(lottos, win_nums):
 
-    rank=[6,6,5,4,3,2,1]
+    rank=[6,6,5,4,3,2,1] # 1개나 2개가 정답일때는 어차피 6등이라 rank을 저렇게 지정
 
     cnt_0 = lottos.count(0)
     ans = 0
