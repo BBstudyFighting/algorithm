@@ -6,3 +6,5 @@ SELECT *
 from city
 where population > 100000 and CountryCode = 'usa' ;
 
+# 조건) populations larger than 100000 / CountryCode for America is USA
+
