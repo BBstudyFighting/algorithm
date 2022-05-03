@@ -1,0 +1,29 @@
+동물 보호소에 들어온 동물 이름 중 두 번 이상 쓰인 이름과 해당 이름이 쓰인 횟수를 조회하는 SQL문을 작성해주세요. 이때 결과는 이름이 없는 동물은 집계에서 제외하며, 결과는 이름 순으로 조회해주세요.
+
+예시
+예를 들어 ANIMAL_INS 테이블이 다음과 같다면
+
+ANIMAL_ID	ANIMAL_TYPE	DATETIME	INTAKE_CONDITION	NAME	SEX_UPON_INTAKE
+A396810	Dog	2016-08-22 16:13:00	Injured	Raven	Spayed Female
+A377750	Dog	2017-10-25 17:17:00	Normal	Lucy	Spayed Female
+A355688	Dog	2014-01-26 13:48:00	Normal	Shadow	Neutered Male
+A399421	Dog	2015-08-25 14:08:00	Normal	Lucy	Spayed Female
+A400680	Dog	2017-06-17 13:29:00	Normal	Lucy	Spayed Female
+A410668	Cat	2015-11-19 13:41:00	Normal	Raven	Spayed Female
+Raven 이름은 2번 쓰였습니다.
+Lucy 이름은 3번 쓰였습니다
+Shadow 이름은 1번 쓰였습니다.
+따라서 SQL문을 실행하면 다음과 같이 나와야 합니다.
+
+NAME	COUNT
+Lucy	3
+Raven	2
+
+정답
+SELECT NAME , COUNT(NAME) -> NAME 을 추출할거고 NAME 행 수를 세라
+FROM ANIMAL_INS -> ANIMAL_INS 테이블에서 
+GROUP BY NAME -> NAME 에서 이름별로 묶어라
+HAVING COUNT(NAME) > 1 -> 대신에 NAME 에 2번 이상 나온 것들만 보여줘
+ORDER BY NAME -> 이름순으로 정렬해줘
+
+group by 에서 조건을 줄때는 having을 사용하여 조건을 준다.
