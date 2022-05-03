@@ -5,5 +5,4 @@ def solution(absolutes, signs):
             answer += absolutes[i]
         else:  # 거짓인 경우 뺴기
             answer -= absolutes[i]
-
     return answer
