@@ -9,8 +9,8 @@ SEX_UPON_OUTCOME	VARCHAR(N)	FALSE
 보호소에서는 몇 시에 입양이 가장 활발하게 일어나는지 알아보려 합니다. 09:00부터 19:59까지, 각 시간대별로 입양이 몇 건이나 발생했는지 조회하는 SQL문을 작성해주세요. 이때 결과는 시간대 순으로 정렬해야 합니다.
 
 정답
-SELECT HOUR(DATETIME) AS 'HOUR', COUNT(ANIMAL_ID) AS 'COUNT'
-  FROM ANIMAL_OUTS
-  WHERE HOUR(DATETIME) BETWEEN 9 AND 19
-  GROUP BY HOUR
-  ORDER BY HOUR
+SELECT HOUR(DATETIME) AS 'HOUR', COUNT(ANIMAL_ID) AS 'COUNT' → DATETIME에서 HOUR 를 HOUR라는 이름으로 추출하고, ANIMAL_ID 행수를 세되 COUNT 라는 이름으로 뽑아줘
+  FROM ANIMAL_OUTS → ANIMAL_OUTS 테이블에서 뽑아
+  WHERE HOUR(DATETIME) BETWEEN 9 AND 19 → DATETIME에서 HOUR 를 9-19시 것만 뽑아
+  GROUP BY HOUR → HOUR끼리만 묶고
+  ORDER BY HOUR → HOUR 순서대로 정렬해줘
