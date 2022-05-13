@@ -1,0 +1,10 @@
+SELECT ANIMAL_ID, ANIMAL_TYPE, DATETIME, INTAKE_CONDITION, NAME, SEX_UPON_INTAKE
+FROM ANIMAL_INS
+ORDER BY ANIMAL_ID
+;
+
+이 코드에서 세미클론을 쓰지 않아도 정답이다. 그렇다면 세미클론은 언제 써야 하나?
+
+DBMS 들이 세미콜론 없이도 문장 구분을 하기에 거의 필요하지 않지만
+아직 SQL 표준이 ;을 따르고 있어서 항상 사용하는 것이 표준이라고도? 할 수 있습니다.
+불필요한 DBMS도 일부 문장에서는 ; 유무에 따라 결과가 다르게 나오는 경우도 있기 때문입니다.
