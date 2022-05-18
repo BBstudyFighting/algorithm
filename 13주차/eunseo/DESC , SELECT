@@ -1,0 +1,10 @@
+그동안 코드 돌려보는 것만 암기하듯이 정리해왔다. 이제는 강의를 제대로 들으면서 처음부터 하나하나 정리를 할 것이다.
+강의는 유튜브에서 유명한 이수안컴퓨터연구소 강의를 듣는다.
+
+USE world : world 라는 데이터 사용할 것이다. 왼쪽에 world 데이터 볼드로 바뀜.
+SHOW TABLE STATUS;  : 테이블 상황 보여줘
+DESCRIBE city; : 테이블 안의 여러 열(컬럼)중에 city 보여줘
+DESC country; : 줄여서도 씀
+
+SELECT * FROM city; : city 의 모든 데이터 보여줘
+SELECT name, population FROM city; : city 중에 name 과 population 만 보여줘
