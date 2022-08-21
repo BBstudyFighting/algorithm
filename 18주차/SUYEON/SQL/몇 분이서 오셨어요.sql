@@ -1,0 +1,7 @@
+SELECT * 
+FROM TIPS
+WHERE MOD(SIZE, 2) = 1 #SIZE을 2으로 나눈 나머지를 반환
+
+SELECT * 
+FROM TIPS
+WHERE SIZE%2 = 1
