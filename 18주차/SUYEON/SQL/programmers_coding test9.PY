@@ -5,11 +5,12 @@
 # for문을 돌면서 w, h 중 큰 값은 w리스트 작은 값은 h리스트에 담는다.
 # 두 개의 리스트에서 가장 큰 값이 곱한 값이 답이다.
 
+#1
 def solution(sizes):
     return max(max(x) for x in sizes) * max(min(x) for x in sizes)
-
+#2
 solution = lambda sizes: max(sum(sizes, [])) * max(min(size) for size in sizes)
-
+#3
 def solution(sizes):
     answer = 0
     
