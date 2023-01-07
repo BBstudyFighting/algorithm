@@ -1,0 +1,10 @@
+# 즐겨찾기가 가장 많은 식당 정보 출력하기
+SELECT A.FOOD_TYPE, A.REST_ID, A.REST_NAME, A.FAVORITES
+FROM REST_INFO A 
+JOIN (SELECT FOOD_TYPE, MAX(FAVORITES) AS FAVORITES
+    FROM REST_INFO
+    GROUP BY FOOD_TYPE) B -- B: 각 카테고리별 최대 FAVORITES
+    -- 즐겨찾기수가 가장 많은 식당의 음식 종류를 구하기 위해 서브쿼리를 사용
+ON A.FAVORITES = B.FAVORITES AND A.FOOD_TYPE = B.FOOD_TYPE 
+-- B에 해당하는 컬럼만 남기기 (교집합)
+ORDER BY FOOD_TYPE DESC
